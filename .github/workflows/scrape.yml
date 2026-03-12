@@ -1,9 +1,9 @@
 name: Bleems Scraper → S3
 
 on:
-  # Run every day at 02:00 UTC
+  # Run every day at 08:00 UTC
   schedule:
-    - cron: "0 2 * * *"
+    - cron: "0 8 * * *"
 
   # Also allow manual runs from the Actions tab
   workflow_dispatch:
